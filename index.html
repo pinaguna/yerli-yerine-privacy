@@ -28,16 +28,28 @@
         box-shadow: 0 8px 28px rgb(32 33 36 / 10%);
       }
 
-      h1, h2 {
+      h1, h2, h3 {
         line-height: 1.25;
+        color: #1a73e8;
       }
 
       h1 {
         margin-top: 0;
+        color: #202124;
       }
 
       h2 {
         margin-top: 2rem;
+        border-bottom: 1px solid #dadce0;
+        padding-bottom: 8px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 8px;
       }
 
       .updated {
@@ -53,6 +65,15 @@
         main {
           background: #292a2d;
           box-shadow: none;
+        }
+
+        h1 {
+          color: #e8eaed;
+        }
+
+        h2, h3 {
+          color: #8ab4f8;
+          border-bottom-color: #3c4043;
         }
 
         .updated {
@@ -76,21 +97,71 @@
       <p class="updated"><strong>Last updated:</strong> September 17, 2026</p>
 
       <p>
-        This Privacy Policy explains how <strong>pgun</strong> ("we", "us", or
-        "our") handles information in the <strong>Yerli Yerine</strong> mobile
-        game (the "App"). It applies to the App itself and not to Google Play,
-        Android, or other platform services that may independently process data
-        under their own privacy policies.
+        This Privacy Policy governs the manner in which <strong>pgun</strong> ("we", "us", or "our") handles data and user privacy within the <strong>Yerli Yerine</strong> mobile application (the "App"). This policy applies exclusively to the App and does not extend to third-party services, operating systems, or platforms such as Google Play, which operate under their own independent terms.
       </p>
 
-      <h2>1. Summary</h2>
+      <h2>1. Policy Overview & Zero Data Collection Model</h2>
       <p>
-        Yerli Yerine does not collect, transmit, sell, rent, share, or otherwise
-        make available users' personal or sensitive information to us or to third
-        parties. The App has no user accounts, online multiplayer features,
-        advertisements, in-app purchases, analytics, crash-reporting service, or
-        cloud-based game-save service.
+        Yerli Yerine operates under a strict offline and zero-data-collection model. We respect your privacy and are committed to protecting it. The App does not collect, capture, store, transmit, process, share, or monetize any personal or sensitive user data. 
+      </p>
+      <p>
+        There are no user registration requirements, account creations, social media integrations, online multiplayer services, cloud saves, targeted advertising networks, in-app purchases, or telemetry tracking modules embedded in the App.
       </p>
 
-      <h2>2. Information the App Does Not Collect</h2>
+      <h2>2. Categories of Data Not Collected</h2>
+      <p>For complete transparency, the App explicitly does NOT request or process:</p>
+      <ul>
+        <li><strong>Personal Identifiable Information (PII):</strong> Names, email addresses, physical addresses, phone numbers, ages, or national identification numbers.</li>
+        <li><strong>Device Identifiers:</strong> Android ID, IMEI, MAC Address, Advertising ID (AAID), or IP addresses.</li>
+        <li><strong>Location Data:</strong> Precise (GPS) or approximate network-based locations.</li>
+        <li><strong>Hardware & Sensor Access:</strong> Camera, microphone, contacts, storage files, calendar, or Bluetooth permissions.</li>
+        <li><strong>Usage Telemetry:</strong> Crash reports, session durations, clickstream data, or behavioral analytics.</li>
+      </ul>
+
+      <h2>3. Local On-Device Game Data</h2>
       <p>
+        To ensure proper functioning of core gameplay mechanics, the App creates and stores non-identifiable technical progress files directly on your physical device. This data includes:
+      </p>
+      <ul>
+        <li>Level completion status and game progression.</li>
+        <li>User preference configurations (e.g., sound effects, background music, and vibration settings).</li>
+      </ul>
+      <p>
+        This information is stored strictly within local storage via Unity <code>PlayerPrefs</code>. It remains strictly isolated on your device, is never transmitted over the internet to developer-operated servers or third parties, and is permanently removed upon uninstalling the App or clearing its storage in Android settings.
+      </p>
+
+      <h2>4. Third-Party Libraries & SDK Disclosures</h2>
+      <p>
+        The App is built using the Unity game engine and the DOTween animation library. All optional online services offered by Unity—including Unity Analytics, Unity Ads, Unity Diagnostics, and Unity Purchasing—have been completely disabled in this release. No third-party Software Development Kits (SDKs) are active that harvest or share background data.
+      </p>
+
+      <h2>5. Children’s Online Privacy Protection (COPPA & GDPR)</h2>
+      <p>
+        Yerli Yerine is designed to be safe for general audiences, including children. We comply fully with the Children’s Online Privacy Protection Act (COPPA) and the EU General Data Protection Regulation (GDPR) regarding minors:
+      </p>
+      <ul>
+        <li>We do not knowingly collect personal data from children under 13 (or under 16 in the EU).</li>
+        <li>The App contains no behavioral tracking, third-party ads, chat capabilities, links to external websites, or purchasing options.</li>
+      </ul>
+
+      <h2>6. Data Security & Storage Controls</h2>
+      <p>
+        Because we do not transmit or store personal data on remote servers or cloud databases, remote data breach risks are completely mitigated. Local game files are protected by the native sandbox security layer of the Android operating system.
+      </p>
+
+      <h2>7. Changes to This Privacy Policy</h2>
+      <p>
+        We reserve the right to update this Privacy Policy to reflect future game enhancements or updates to Google Play Developer Policies. Any updates will be published on this URL with a revised "Last updated" date.
+      </p>
+
+      <h2>8. Contact Information</h2>
+      <p>
+        If you have questions or concerns regarding this Privacy Policy, please contact us at:
+      </p>
+      <p>
+        <strong>Developer:</strong> pgun<br />
+        <strong>Email:</strong> invuyeon@gmail.com
+      </p>
+    </main>
+  </body>
+</html>
